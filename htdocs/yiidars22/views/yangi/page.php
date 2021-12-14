@@ -1,0 +1,1 @@
+<p>Salom, bolalar! Bu bizning yangi controllerimiz!</p>

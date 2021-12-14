@@ -1,0 +1,82 @@
+33
+
+4
+
+
+
+3306
+60
+0
+
+
+
+
+
+0
+30.000
+
+0
+
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+using_gtid=0
+do_domain_ids=0
+ignore_domain_ids=0
+END_MARKER
+2021-12-10 18:52:15 7 [Note] Initialized Master_info from 'master-2021@002d12@002d04@002018@003a31@003a06@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.info'
+2021-12-10 18:52:15 7 [Note] Added new Master_info '2021-12-04 18:31:06 0 [Note] Added new Master_info '' to hash table' to hash table
+2021-12-10 18:52:15 10 [Note] Master '2021-12-04 18:31:06 0 [Note] Added new Master_info '' to hash table': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
+2021-12-10 18:52:15 10 [ERROR] Master '2021-12-04 18:31:06 0 [Note] Added new Master_info '' to hash table': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
+2021-12-10 18:52:15 10 [Note] Master '2021-12-04 18:31:06 0 [Note] Added new Master_info '' to hash table': Slave I/O thread killed while connecting to master
+2021-12-10 18:52:15 7 [Note] Started replication for '2021-12-04 18:31:06 0 [Note] Added new Master_info '' to hash table'
+2021-12-10 18:52:15 11 [Note] Master '2021-12-04 18:31:06 0 [Note] Added new Master_info '' to hash table': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2021@002d12@002d04@002018@003a31@003a06@00200@0020@005bnote@005d@0020added@0020new@0020master_info@0020@0027@0027@0020to@0020hash@0020table@000d.000001' position: 4
+2021-12-10 18:52:15 10 [Note] Master '2021-12-04 18:31:06 0 [Note] Added new Master_info '' to hash table': Slave I/O thread exiting, read up to log 'FIRST', position 4
+2021-12-10 18:52:15 7 [Note] Reading Master_info: 'master-2021@002d12@002d04@002018@003a31@003a06@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'  Relay_info:'relay-log-2021@002d12@002d04@002018@003a31@003a06@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'
+2021-12-10 18:52:15 10 [Note] Master '2021-12-04 18:31:06 0 [Note] Added new Master_info '' to hash table': master was :3306
+2021-12-10 18:52:15 7 [Note] Initialized Master_info from 'master-2021@002d12@002d04@002018@003a31@003a06@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.info'
+2021-12-10 18:52:15 7 [Note] Added new Master_info '2021-12-04 18:31:06 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.' to hash table
+2021-12-10 18:52:15 12 [Note] Master '2021-12-04 18:31:06 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
+2021-12-10 18:52:15 7 [Note] Started replication for '2021-12-04 18:31:06 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.'
+2021-12-10 18:52:15 13 [Note] Master '2021-12-04 18:31:06 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-2021@002d12@002d04@002018@003a31@003a06@00200@0020@005bnote@005d@0020c@003a@005cxampp@005cmysql@005cbin@005cmysqld@002eexe@003a@0020ready@0020for@0020connections@002e@000d.000001' position: 4
+2021-12-10 18:52:15 12 [ERROR] Master '2021-12-04 18:31:06 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
+2021-12-10 18:52:15 7 [Note] Reading Master_info: 'master-version@003a@0020@002710@002e4@002e21@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'  Relay_info:'relay-log-version@003a@0020@002710@002e4@002e21@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'
+2021-12-10 18:52:15 12 [Note] Master '2021-12-04 18:31:06 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread killed while connecting to master
+2021-12-10 18:52:15 12 [Note] Master '2021-12-04 18:31:06 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': Slave I/O thread exiting, read up to log 'FIRST', position 4
+2021-12-10 18:52:15 12 [Note] Master '2021-12-04 18:31:06 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.': master was :3306
+2021-12-10 18:52:15 7 [Note] Initialized Master_info from 'master-version@003a@0020@002710@002e4@002e21@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.info'
+2021-12-10 18:52:15 7 [Note] Added new Master_info 'Version: '10.4.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution' to hash table
+2021-12-10 18:52:15 14 [Note] Master 'Version: '10.4.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution': Slave I/O thread: Start asynchronous replication to master '@:3306' in log '' at position 4
+2021-12-10 18:52:15 7 [Note] Started replication for 'Version: '10.4.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution'
+2021-12-10 18:52:15 15 [Note] Master 'Version: '10.4.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution': Slave SQL thread initialized, starting replication in log 'FIRST' at position 0, relay log '.\mysql-relay-bin-version@003a@0020@002710@002e4@002e21@002dmariadb@0027@0020@0020socket@003a@0020@0027@0027@0020@0020port@003a@00203306@0020@0020mariadb@002eorg@0020binary@0020distribution@000d.000001' position: 4
+2021-12-10 18:52:15 14 [ERROR] Master 'Version: '10.4.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution': Slave I/O: Fatal error: Invalid (empty) username when attempting to connect to the master server. Connection attempt terminated. Internal MariaDB error code: 1593
+2021-12-10 18:52:15 0 [Note] Reading of all Master_info entries succeeded
+2021-12-10 18:52:15 14 [Note] Master 'Version: '10.4.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution': Slave I/O thread killed while connecting to master
+2021-12-10 18:52:15 0 [Note] Added new Master_info '' to hash table
+2021-12-10 18:52:15 14 [Note] Master 'Version: '10.4.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution': Slave I/O thread exiting, read up to log 'FIRST', position 4
+2021-12-10 18:52:15 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2021-12-10 18:52:15 14 [Note] Master 'Version: '10.4.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution': master was :3306
+2021-12-10 18:52:15 11 [ERROR] Master '2021-12-04 18:31:06 0 [Note] Added new Master_info '' to hash table': Error in Log_event::read_log_event(): 'Event truncated', data_len: 825368630, event_type: 45
+2021-12-10 18:52:15 11 [ERROR] Master '2021-12-04 18:31:06 0 [Note] Added new Master_info '' to hash table': Error reading relay log event: slave SQL thread aborted because of I/O error
+2021-12-10 18:52:15 11 [ERROR] Master '2021-12-04 18:31:06 0 [Note] Added new Master_info '' to hash table': Slave SQL: Relay log read failure: Could not parse relay log event entry. The possible reasons are: the master's binary log is corrupted (you can check this by running 'mysqlbinlog' on the binary log), the slave's relay log is corrupted (you can check this by running 'mysqlbinlog' on the relay log), a network problem, or a bug in the master's or slave's MySQL code. If you want to check the master's binary log or slave's relay log, you will be able to know their names by issuing 'SHOW SLAVE STATUS' on this slave. Internal MariaDB error code: 1594
+2021-12-10 18:52:15 11 [ERROR] Master '2021-12-04 18:31:06 0 [Note] Added new Master_info '' to hash table': Error running query, slave SQL thread aborted. Fix the problem, and restart the slave SQL thread with "SLAVE START". We stopped at log 'FIRST' position 0
+2021-12-10 18:52:15 11 [Note] Master '2021-12-04 18:31:06 0 [Note] Added new Master_info '' to hash table': Slave SQL thread exiting, replication stopped in log 'FIRST' at position 0
+2021-12-10 18:52:15 11 [Note] Master '2021-12-04 18:31:06 0 [Note] Added new Master_info '' to hash table': master was :3306
+2021-12-10 18:52:15 15 [ERROR] Master 'Version: '10.4.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution': Error in Log_event::read_log_event(): 'Event truncated', data_len: 924852277, event_type: 45
+2021-12-10 18:52:15 15 [ERROR] Master 'Version: '10.4.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution': Error reading relay log event: slave SQL thread aborted because of I/O error
+2021-12-10 18:52:15 15 [ERROR] Master 'Version: '10.4.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution': Slave SQL: Relay log read failure: Could not parse relay log event entry. The possible reasons are: the master's binary log is corrupted (you can check this by running 'mysqlbinlog' on the binary log), the slave's relay log is corrupted (you can check this by running 'mysqlbinlog' on the relay log), a network problem, or a bug in the master's or slave's MySQL code. If you want to check the master's binary log or slave's relay log, you will be able to know their names by issuing 'SHOW SLAVE STATUS' on this slave. Internal MariaDB error code: 1594
+2021-12-10 18:52:15 15 [ERROR] Master 'Version: '10.4.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution': Error running query, slave SQL thread aborted. Fix the problem, and restart the slave SQL thread with "SLAVE START". We stopped at log 'FIRST' position 0
+2021-12-10 18:52:15 15 [Note] Master 'Version: '10.4.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution': Slave SQL thread exiting, replication stopped in log 'FIRST' at position 0
+2021-12-10 18:52:15 15 [Note] Master 'Version: '10.4.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution': master was :3306

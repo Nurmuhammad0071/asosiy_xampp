@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'kartik-v/yii2-krajee-base' => array(
+            'pretty_version' => 'v3.0.1',
+            'version' => '3.0.1.0',
+            'type' => 'yii2-extension',
+            'install_path' => __DIR__ . '/../kartik-v/yii2-krajee-base',
+            'aliases' => array(),
+            'reference' => 'bbf7b58b0000f44834c18c0f2eed13a0a7d04c09',
+            'dev_requirement' => false,
+        ),
+        'kartik-v/yii2-widget-select2' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'yii2-extension',
+            'install_path' => __DIR__ . '/../kartik-v/yii2-widget-select2',
+            'aliases' => array(
+                0 => '2.2.x-dev',
+            ),
+            'reference' => 'b3c74af0612d47928d64e04efaae242d7611dda2',
+            'dev_requirement' => false,
+        ),
+        'select2/select2' => array(
+            'pretty_version' => '4.0.13',
+            'version' => '4.0.13.0',
+            'type' => 'component',
+            'install_path' => __DIR__ . '/../select2/select2',
+            'aliases' => array(),
+            'reference' => '45f2b83ceed5231afa7b3d5b12b58ad335edd82e',
+            'dev_requirement' => false,
+        ),
+    ),
+);

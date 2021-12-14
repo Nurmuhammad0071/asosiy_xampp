@@ -1,0 +1,70 @@
+* {
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    font-family: Comic Sans MS;
+}
+.add-form {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+.add-form > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40px;
+    grid-gap: 10px;
+}
+.add-form > button{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    background-color: cadetblue;
+    border: none;
+    font-size: 30px;
+    color: white;
+}
+.add-form > div > input {
+    text-align: center;
+    outline: 0;
+    font-size: 25px;
+}
+table {
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+    /* border-collapse: collapse; */
+}
+th {
+    /* border: 1px solid black; */
+    height: 50px;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+.table-sarlavha {
+    background-color: tomato;
+    font-family: BOTANIC PERSONAL USE;
+    color: white;
+    border: none;
+}
+.action {
+    display: grid;
+    grid-template-columns:calc(50% - 5px) calc(50% - 5px);
+    grid-template-rows: 20px;
+    padding: 15px;
+    grid-gap: 10px;
+}
+.del-form > button, .edit-form > button {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    border: 0;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.edit-form > button {
+    background-color: cadetblue;
+}
